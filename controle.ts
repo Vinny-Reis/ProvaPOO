@@ -39,10 +39,10 @@ export class Controle{
             if(this.media > 60){
                 console.log('Aprovado!')
             }
-             if (this.media <= 59){
+             if (this.media <= 59.9){
                  console.log('Reprovado!')
              }
-
+             console.log('Media do Aluno: ' +  this.media);
         }
 
       
